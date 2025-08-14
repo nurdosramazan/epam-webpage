@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appointment Booking</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main class="container">
+        <h1>Book an Appointment</h1>
+
+        <form id="appointmentForm" class="appointment-form">
+            <section class="form-section">
+                <label for="date">Select Date:</label>
+                <input type="date" id="date" name="date" required>
+            </section>
+
+            <section class="form-section">
+                <p>Select a Time Slot:</p>
+                <div id="timeSlots" class="time-slots">
+                    <!-- Slots will be dynamically generated -->
+                </div>
+            </section>
+
+            <section class="form-section">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="contact">Contact Info:</label>
+                <input type="text" id="contact" name="contact" required>
+            </section>
+
+            <button type="submit" class="submit-btn">Book Appointment</button>
+        </form>
+
+        <div id="confirmation" class="confirmation hidden">
+            <p>✅ Your appointment has been booked!</p>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
