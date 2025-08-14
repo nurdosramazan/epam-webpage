@@ -7,10 +7,8 @@ Making appointments form. Simple, no backend.
  - The user selects one time slot, which is highlighted on click.
  - The user then enters their name and contact info.
  - The user can submit the form.
- - The system should display a confirmation message on submission of form.
 
 2) Non-Functional Requirements
- - HTML uses semantic tags such as <form>, <label>, <main>, <section>.
  - CSS is stored externally and mapped using class names.
  - The design is responsive: works on both desktop and mobile.
  - Accessibility: all form controls have <label> elements.
